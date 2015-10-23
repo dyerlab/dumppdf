@@ -29,9 +29,9 @@
 /* Begin PBXFileReference section */
 		2A87AEFB1BD13C1F00B9247F /* dumppdf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dumppdf; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87AEFE1BD13C1F00B9247F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2A87AF071BD13E7C00B9247F /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		2A87AF091BD13FA000B9247F /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		2A87AF0B1BD1464A00B9247F /* stopwords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stopwords.plist; sourceTree = "<group>"; };
+		2A87AF071BD13E7C00B9247F /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../Article.swift; sourceTree = "<group>"; };
+		2A87AF091BD13FA000B9247F /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = ../StringExtensions.swift; sourceTree = "<group>"; };
+		2A87AF0B1BD1464A00B9247F /* stopwords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = stopwords.plist; path = ../stopwords.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +48,6 @@
 		2A87AEF21BD13C1F00B9247F = {
 			isa = PBXGroup;
 			children = (
-				2A87AF0B1BD1464A00B9247F /* stopwords.plist */,
-				2A87AF091BD13FA000B9247F /* StringExtensions.swift */,
-				2A87AF071BD13E7C00B9247F /* Article.swift */,
 				2A87AEFD1BD13C1F00B9247F /* dumppdf */,
 				2A87AEFC1BD13C1F00B9247F /* Products */,
 			);
@@ -67,6 +64,9 @@
 		2A87AEFD1BD13C1F00B9247F /* dumppdf */ = {
 			isa = PBXGroup;
 			children = (
+				2A87AF0B1BD1464A00B9247F /* stopwords.plist */,
+				2A87AF071BD13E7C00B9247F /* Article.swift */,
+				2A87AF091BD13FA000B9247F /* StringExtensions.swift */,
 				2A87AEFE1BD13C1F00B9247F /* main.swift */,
 			);
 			path = dumppdf;
