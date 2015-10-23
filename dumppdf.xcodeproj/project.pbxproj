@@ -32,7 +32,6 @@
 		2A87AF071BD13E7C00B9247F /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		2A87AF091BD13FA000B9247F /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		2A87AF0B1BD1464A00B9247F /* stopwords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stopwords.plist; sourceTree = "<group>"; };
-		2A9B4A591BDA703100B969EF /* SustainabilityPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SustainabilityPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +51,6 @@
 				2A87AF0B1BD1464A00B9247F /* stopwords.plist */,
 				2A87AF091BD13FA000B9247F /* StringExtensions.swift */,
 				2A87AF071BD13E7C00B9247F /* Article.swift */,
-				2A9B4A591BDA703100B969EF /* SustainabilityPlayground.playground */,
 				2A87AEFD1BD13C1F00B9247F /* dumppdf */,
 				2A87AEFC1BD13C1F00B9247F /* Products */,
 			);
